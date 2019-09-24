@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#container{
+    width:80%;
+    display:flex;
+    margin: 0 auto;
+    height:80%;
+}
+div{
+    transition: all 0.5s;
+}
+body > span{
+    text-align: center;
+    font-size:3em;
+}
+div > div > div > span{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
